@@ -45,7 +45,7 @@ class NextFolderFragment : Fragment() {
         val listInFolder = view.findViewById<RecyclerView>(R.id.listInFolder)
         listInFolder.layoutManager = LinearLayoutManager(requireContext())
         listInFolder.adapter = MyAdapter(listFile)
-        registerForContextMenu(listInFolder)
+//        registerForContextMenu(listInFolder)
     }
 
 }
